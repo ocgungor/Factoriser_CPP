@@ -21,7 +21,7 @@ Copyright
 
 ```
 /*
- * Factoriser
+ * Factoriser_CPP
  *
  * Created by Oguzhan Cansin Gungor on 14/04/13.
  *
