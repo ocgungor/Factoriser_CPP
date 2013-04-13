@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5674C726171A0D200046E9C2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5674C725171A0D200046E9C2 /* main.cpp */; };
 		5674C728171A0D200046E9C2 /* Factoriser_CPP.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5674C727171A0D200046E9C2 /* Factoriser_CPP.1 */; };
+		56E44B43171A1D9E00550078 /* Factoriser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56E44B41171A1D9E00550078 /* Factoriser.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		5674C722171A0D200046E9C2 /* Factoriser_CPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Factoriser_CPP; sourceTree = BUILT_PRODUCTS_DIR; };
 		5674C725171A0D200046E9C2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		5674C727171A0D200046E9C2 /* Factoriser_CPP.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Factoriser_CPP.1; sourceTree = "<group>"; };
+		56E44B41171A1D9E00550078 /* Factoriser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Factoriser.cpp; path = ../Factoriser.cpp; sourceTree = "<group>"; };
+		56E44B42171A1D9E00550078 /* Factoriser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Factoriser.h; path = ../Factoriser.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,8 @@
 		5674C719171A0D200046E9C2 = {
 			isa = PBXGroup;
 			children = (
+				56E44B41171A1D9E00550078 /* Factoriser.cpp */,
+				56E44B42171A1D9E00550078 /* Factoriser.h */,
 				5674C724171A0D200046E9C2 /* Factoriser_CPP */,
 				5674C723171A0D200046E9C2 /* Products */,
 			);
@@ -118,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5674C726171A0D200046E9C2 /* main.cpp in Sources */,
+				56E44B43171A1D9E00550078 /* Factoriser.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +220,7 @@
 				5674C72D171A0D200046E9C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

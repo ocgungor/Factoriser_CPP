@@ -7,12 +7,17 @@
 //
 
 #include <iostream>
+#include "Factoriser.h"
 
 int main(int argc, const char * argv[])
 {
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+	Factoriser *f = new Factoriser();
+	
+	f->factorise(100);
+    
+	delete f;
+    
+	return EXIT_SUCCESS;
 }
 
