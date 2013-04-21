@@ -69,17 +69,17 @@ vector<int> Factoriser::factorise(int n) {
 void Factoriser::printFactors(vector<int> &factors, int n) {
 	// get an iterator (enumerator)
 	vector<int>::iterator e = factors.begin();
+	    
+    cout << n << " = ";
 	
-	printf("%d = ", n);
-	
-	while (e != factors.end())
-	{
-		printf("%d", *e);
-		
+	while (e != factors.end()){
+        
+        cout << *e ;
 		e++;
 		
 		if (e != factors.end())
-			printf(" * ");
+            cout << " * " ;
+
 	}
-	printf("\n");
+    cout << "\n" ;
 }
